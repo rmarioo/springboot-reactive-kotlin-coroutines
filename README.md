@@ -3,9 +3,6 @@
 [![license](https://img.shields.io/github/license/tginsberg/springboot-reactive-kotlin-coroutines.svg)]()
 
 
-This code supports a [blog post I wrote](https://todd.ginsberg.com/post/springboot-reactive-kotlin-coroutines/), and implements a reactive counter using Spring Boot, Kotlin, Kotlin Coroutines, and Redis.
-
-
 ### Getting The Code
 
 ```
@@ -24,6 +21,10 @@ Technologies used in this project:
 To run this project, you'll need:
 
 1. Redis installed and ready to use on the default port
+For example using docker command 
+```
+docker run --name redis-hs --rm -p 6379:6379 -d redis
+```
 2. A cursory understanding of reactive concepts and Spring Boot
 
 ### Running the server
