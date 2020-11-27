@@ -26,6 +26,10 @@ For example using docker command
 ```
 docker run --name redis-hs --rm -p 6379:6379 -d redis
 ```
+Stop redis on docker
+```
+docker rm -f -v redis-hs
+```
 2. A cursory understanding of reactive concepts and Spring Boot
 
 ### Running the server
